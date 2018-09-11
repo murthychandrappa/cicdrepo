@@ -55,7 +55,7 @@ public class CalculatorTest {
 		calculator.divison(10, 0);
 	}
 
-	@Ignore
+	//@Ignore
 	@Test
 	public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
