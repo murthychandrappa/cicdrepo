@@ -56,12 +56,12 @@ public class CalculatorTest {
 	}
 
 	//@Ignore
-//	@Test
-//	public void testEqual() {
-//		boolean result = calculator.equalIntegers(20, 20);
-//
-//		assertFalse(result);
-//	}
+	@Test
+	public void testEqual() {
+		boolean result = calculator.equalIntegers(20, 20);
+
+		assertFalse(result);
+	}
 
 	@Test(expected = AssertionError.class)
 	public void testSubstraction() {
